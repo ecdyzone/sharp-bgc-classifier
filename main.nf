@@ -12,12 +12,6 @@
 
 nextflow.enable.dsl = 2
 
-params.outdir    = "results_nf"
-params.max_len   = 512
-params.batch_size = 16
-params.cv        = 5
-params.all_taxa  = false
-
 process DOWNLOAD_MIBIG {
     publishDir "${params.outdir}/raw", mode: "copy"
 
@@ -34,6 +28,7 @@ process DOWNLOAD_MIBIG {
 }
 
 process GENERATE_EMBEDDINGS {
+    tag "ESM-2 Embeddings"
     publishDir "${params.outdir}/processed", mode: "copy"
 
     input:

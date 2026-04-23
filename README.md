@@ -109,6 +109,13 @@ Tested on Python 3.11, CPU only. Full pipeline takes ~30–60 min depending on d
 
 ## References
 
+> For the bibtex file with those references, check [`references.bib`](./references.bib)
+
 - Lin et al. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. *Science*.
 - Terlouw et al. (2023). MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters. *Nucleic Acids Research*.
 - Blin et al. (2023). antiSMASH 7.0: new and improved predictions for detection, regulation, and visualisation. *Nucleic Acids Research*.
+
+
+## Limitations
+
+This is a toy project made in less than a week with the help of Anthropic's Claude.ai. The goal was to get a feeling for the work involved in this iGem project. I know there are many things to improve, and I'd be happy with any contribution.
