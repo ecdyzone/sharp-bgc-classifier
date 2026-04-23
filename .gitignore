@@ -1,6 +1,29 @@
 # Raw Data Downloaded by the scripts
 data/raw/
 
+
+
+# Nextflow
+.nextflow*
+work/
+# results/
+.cache/
+tmp/
+
+## Logs & reports
+*.log
+trace.txt
+timeline.html
+report.html
+dag.png
+
+## Config (optional, if environment-specific)
+.nextflow.log*
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
