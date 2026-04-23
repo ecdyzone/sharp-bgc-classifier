@@ -1,0 +1,16 @@
+{
+  "best_model": "Logistic Regression",
+  "macro_f1": 0.5166,
+  "classes": [
+    "accessory",
+    "core",
+    "other",
+    "regulatory"
+  ],
+  "n_samples": 289,
+  "cv_folds": 5,
+  "all_models": {
+    "Random Forest": 0.4956,
+    "Logistic Regression": 0.5166
+  }
+}

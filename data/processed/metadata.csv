@@ -1,0 +1,290 @@
+bgc_id,protein_id,role,bgc_type,organism
+BGC0000001,AEK75490.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75491.1,accessory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75492.1,regulatory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75493.1,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75494.1,regulatory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75495.1,regulatory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,abyU,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75496.1,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75497.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75498.1,accessory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75499.1,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75500.1,accessory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75501.1,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75502.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75503.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75504.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75505.1,regulatory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75507.1,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75512.1,other,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75513.1,accessory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75514.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75515.1,core,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75516.1,accessory,PKS,Verrucosispora maris AB-18-032
+BGC0000001,AEK75517.1,regulatory,PKS,Verrucosispora maris AB-18-032
+BGC0000002,KALB_6558,other,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6559,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6560,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6561,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6562,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6563,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6564,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6565,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6566,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6567,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6568,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6569,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6570,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6571,other,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6573,regulatory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6574,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6575,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6576,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6577,other,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6578,accessory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6579,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6580,accessory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6581,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6582,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6583,accessory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6584,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6585,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6586,regulatory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6587,other,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6588,core,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6589,regulatory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6590,regulatory,PKS,Kutzneria albida DSM 43870
+BGC0000002,KALB_6591,regulatory,PKS,Kutzneria albida DSM 43870
+BGC0000016,AAV48834.1,core,other,Streptomyces nodosus
+BGC0000016,AAV48835.1,other,other,Streptomyces nodosus
+BGC0000018,ABY21538.1,other,PKS,Streptomyces eurythermus
+BGC0000018,ABY21539.1,other,PKS,Streptomyces eurythermus
+BGC0000018,ABY21540.1,other,PKS,Streptomyces eurythermus
+BGC0000018,ABY21541.1,other,PKS,Streptomyces eurythermus
+BGC0000018,ABY21542.1,other,PKS,Streptomyces eurythermus
+BGC0000019,ABW91149.1,accessory,PKS,Streptomyces eurythermus
+BGC0000019,ABW91150.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91151.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91152.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91153.1,regulatory,PKS,Streptomyces eurythermus
+BGC0000019,ABW91154.1,regulatory,PKS,Streptomyces eurythermus
+BGC0000019,ABW91155.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91156.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91157.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91158.1,core,PKS,Streptomyces eurythermus
+BGC0000019,ABW91159.1,accessory,PKS,Streptomyces eurythermus
+BGC0000019,ABW91160.1,other,PKS,Streptomyces eurythermus
+BGC0000020,AAM54115.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54114.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54113.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54112.1,regulatory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54111.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54110.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54109.1,regulatory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54108.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54107.1,regulatory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54106.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54105.1,accessory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54104.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54103.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54076.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54075.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54102.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54101.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54100.1,accessory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54099.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54098.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54097.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54096.1,regulatory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54095.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54094.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54093.1,accessory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54092.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54091.1,accessory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54090.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54089.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54088.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54087.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54078.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54077.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54086.1,regulatory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54085.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54084.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54083.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54081.1,other,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54080.1,regulatory,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000020,AAM54079.1,core,PKS,Actinosynnema pretiosum subsp. auranticum
+BGC0000024,CAE02599.1,other,PKS,Streptomyces thioluteus
+BGC0000024,CAE02600.1,other,PKS,Streptomyces thioluteus
+BGC0000024,CAE02601.1,other,PKS,Streptomyces thioluteus
+BGC0000024,CAE02602.1,core,PKS,Streptomyces thioluteus
+BGC0000024,CAE02603.1,core,PKS,Streptomyces thioluteus
+BGC0000024,CAE02604.1,other,PKS,Streptomyces thioluteus
+BGC0000024,CAE02605.1,core,PKS,Streptomyces thioluteus
+BGC0000024,CAE02606.1,core,PKS,Streptomyces thioluteus
+BGC0000024,CAE02607.1,other,PKS,Streptomyces thioluteus
+BGC0000026,AAK83161.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83162.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83163.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83164.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83165.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAG32066.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83166.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83167.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83168.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAG32067.2,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83169.1,accessory,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83170.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83171.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83172.1,regulatory,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83173.1,regulatory,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83174.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83175.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83176.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83178.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83194.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83195.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83196.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83179.1,accessory,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83180.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83181.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83182.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83183.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83184.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83185.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83186.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83187.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83188.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83189.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAG32068.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAG32069.1,other,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83190.1,accessory,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83191.1,accessory,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83192.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000026,AAK83193.1,core,saccharide,Streptomyces viridochromogenes Tue57
+BGC0000028,ADC79613.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79614.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79615.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79616.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79617.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79618.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79619.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79620.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79621.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79622.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79623.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79624.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79625.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79626.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79627.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79628.1,regulatory,PKS,Streptomyces lohii
+BGC0000028,ADC79629.1,other,PKS,Streptomyces lohii
+BGC0000028,ADC79630.1,accessory,PKS,Streptomyces lohii
+BGC0000029,ACO94452.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94453.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94454.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94455.1,regulatory,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94456.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94457.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94458.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94459.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94460.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94461.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94462.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94463.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94464.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94465.1,regulatory,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94467.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94468.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94469.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94470.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94471.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94472.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94473.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94474.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94475.1,core,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94476.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94477.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94478.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000029,ACO94479.1,other,PKS,Streptomyces sp. DSM 21069
+BGC0000031,CAE45653.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45654.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45655.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45656.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45657.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45658.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45659.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45660.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45661.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45662.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45663.1,accessory,PKS,Streptomyces parvulus
+BGC0000031,CAE45664.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45665.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45666.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45667.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45668.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45669.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45670.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45671.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45672.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45673.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45674.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45675.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45676.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45677.1,accessory,PKS,Streptomyces parvulus
+BGC0000031,CAE45678.1,accessory,PKS,Streptomyces parvulus
+BGC0000031,CAE45679.1,core,PKS,Streptomyces parvulus
+BGC0000031,CAE45680.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45681.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45682.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45683.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45684.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45685.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45686.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45687.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45688.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45689.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45690.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45691.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45692.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45693.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45694.1,other,PKS,Streptomyces parvulus
+BGC0000031,CAE45695.1,other,PKS,Streptomyces parvulus
+BGC0000032,AEH42470.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42471.1,accessory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42472.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42473.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42474.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42475.1,regulatory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42476.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42477.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42478.1,regulatory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42479.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42480.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42481.1,accessory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42482.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42483.1,accessory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42484.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42485.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42486.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42487.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42488.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42489.1,regulatory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42490.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42491.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42492.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42493.1,accessory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42494.1,core,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42495.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42496.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42497.1,accessory,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000032,AEH42498.1,other,PKS,Streptomyces chartreusis NRRL 3882
+BGC0000033,AAM94759.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94760.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94761.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94762.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94763.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94764.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94765.1,other,PKS,Micromonospora echinospora
+BGC0000033,AAM94766.1,other,PKS,Micromonospora echinospora
