@@ -68,6 +68,15 @@ FASTA + JSON (MIBiG 4.0)
 
 ![Role by BGC type](figures/role_by_bgctype.png)
 
+
+### Interactive Knowledge Graph
+
+**This interactive HTML is available online. Try it here: https://ecdyzone.github.io/sharp-bgc-classifier/figures/knowledge_graph.html**
+
+![Protein Knowledge Graph 1](img/knowledge_graph.png)
+![Protein Knowledge Graph 2](img/knowledge_graph2.png)
+
+
 ---
 
 ## Reproducing
