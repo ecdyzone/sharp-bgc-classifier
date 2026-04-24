@@ -1,0 +1,34 @@
+{
+  "n_nodes": 5764,
+  "n_edges": 5907,
+  "avg_degree": 2.05,
+  "adjacency_role_pairs": {
+    "other \u2014 other": 5011,
+    "core \u2014 other": 208,
+    "core \u2014 core": 122,
+    "accessory \u2014 other": 113,
+    "other \u2014 regulatory": 88,
+    "accessory \u2014 core": 65,
+    "other \u2014 transport": 42,
+    "transport \u2014 transport": 30,
+    "accessory \u2014 accessory": 29,
+    "core \u2014 regulatory": 27,
+    "accessory \u2014 regulatory": 23,
+    "core \u2014 transport": 21,
+    "regulatory \u2014 transport": 18,
+    "regulatory \u2014 regulatory": 17,
+    "accessory \u2014 transport": 13
+  },
+  "most_shared_functions": {
+    "halogenase": 6,
+    "ligase": 6,
+    "phosphatase": 6,
+    "hydrolase": 5,
+    "kinase": 5,
+    "hydroxylase": 5,
+    "activator": 5,
+    "oxidase": 5,
+    "permease": 5,
+    "synthetase": 4
+  }
+}
