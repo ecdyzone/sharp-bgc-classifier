@@ -95,11 +95,31 @@ python 04_visualize.py --embeddings data/processed/embeddings.npy \
 
 Tested on Python 3.11, CPU only. Full pipeline takes ~30–60 min depending on dataset size.
 
+
+
+### Reproducing with Nextflow (Recommended)
+
+To run the entire pipeline with a single command (ensuring full reproducibility and generating execution reports):
+
+```bash
+nextflow run main.nf
+```
+
+The pipeline will automatically:
+
+   1. Download and parse MIBiG data.
+
+   2. Generate ESM-2 embeddings.
+
+   3. Train and evaluate the classifier.
+
+   4. Visualize results and output an HTML report of the execution.
+
 ---
 
 ## Next steps
 
-- [ ] Nextflow pipeline wrapping all four scripts (see `pipeline/`)
+- [X] Nextflow pipeline wrapping all four scripts
 - [ ] Knowledge graph of BGC genomic context (NetworkX + Pyvis)
 - [ ] Extend to full MIBiG (all taxa) and evaluate cross-taxa generalization
 - [ ] Fine-tune ESM-2 on MIBiG with contrastive learning for improved role separation
