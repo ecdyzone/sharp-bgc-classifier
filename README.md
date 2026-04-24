@@ -71,7 +71,7 @@ FASTA + JSON (MIBiG 4.0)
 
 ### Interactive Knowledge Graph
 
-**This interactive HTML is available online. Try it here: https://ecdyzone.github.io/sharp-bgc-classifier/figures/knowledge_graph.html**
+**This interactive HTML is available online. Try it [here](https://ecdyzone.github.io/sharp-bgc-classifier/figures/knowledge_graph.html):** https://ecdyzone.github.io/sharp-bgc-classifier/figures/knowledge_graph.html
 
 ![Protein Knowledge Graph 1](img/knowledge_graph.png)
 ![Protein Knowledge Graph 2](img/knowledge_graph2.png)
