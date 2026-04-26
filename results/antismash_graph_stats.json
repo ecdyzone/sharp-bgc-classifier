@@ -1,0 +1,34 @@
+{
+  "n_gene_nodes": 2949,
+  "n_edges_total": 2922,
+  "avg_degree": 1.98,
+  "adjacency_role_pairs": {
+    "other \u2014 other": 660,
+    "accessory \u2014 other": 473,
+    "other \u2014 regulatory": 289,
+    "core \u2014 core": 266,
+    "accessory \u2014 accessory": 208,
+    "core \u2014 other": 183,
+    "accessory \u2014 regulatory": 155,
+    "accessory \u2014 core": 146,
+    "other \u2014 transport": 136,
+    "accessory \u2014 transport": 93,
+    "transport \u2014 transport": 89,
+    "core \u2014 regulatory": 49,
+    "regulatory \u2014 transport": 48,
+    "regulatory \u2014 regulatory": 42,
+    "core \u2014 transport": 18
+  },
+  "most_shared_cross_genome_functions": {
+    "NaN": 3,
+    "hydrolase": 3,
+    "reductase": 3,
+    "regulator": 3,
+    "synthase": 3,
+    "dehydrogenase": 3,
+    "methyltransferase": 3,
+    "cyclase": 3,
+    "hydroxylase": 3,
+    "repressor": 3
+  }
+}
