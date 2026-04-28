@@ -108,10 +108,10 @@ def build_graph(coords_df, roles_df, n_bgcs):
             bgc_type=row["bgc_type"], organism=row["organism"],
             annotation=ann, start=row["start"], end=row["end"],
             label=ann[:28] if ann else row["protein_id"][:20],
-            title=(f"<b>{row['protein_id']}</b><br>Role: {row['role']}<br>"
-                   f"BGC: {row['bgc_id']} ({row['bgc_type']})<br>"
-                   f"Organism: {row['organism']}<br>"
-                   f"Position: {row['start']}–{row['end']} ({row['strand']})<br>"
+            title=(f"{row['protein_id']}\nRole: {row['role']}\n"
+                   f"BGC: {row['bgc_id']} ({row['bgc_type']})\n"
+                   f"Organism: {row['organism']}\n"
+                   f"Position: {row['start']}–{row['end']} ({row['strand']})\n"
                    f"Function: {ann}"))
 
     adj_count = 0
@@ -145,7 +145,7 @@ def build_graph(coords_df, roles_df, n_bgcs):
                 if G.has_node(pid_i) and G.has_node(pid_j) and not G.has_edge(pid_i, pid_j):
                     G.add_edge(pid_i, pid_j, edge_type="shares_function",
                                shared_function=kw,
-                               title=f"Shared: <b>{kw}</b>", weight=1)
+                               title=f"Shared: {kw}", weight=1)
                     share_count += 1
     print(f"  Cross-BGC functional edges: {share_count}")
     return G
@@ -169,7 +169,7 @@ def export_pyvis(G, out_path):
                      title=data.get("title", etype),
                      dashes=(etype=="shares_function"))
     net.set_options('{"nodes":{"borderWidth":0.5},"edges":{"smooth":{"type":"continuous"}},'
-                    '"physics":{"stabilization":{"iterations":250}}}')
+                    '"physics":{"maxVelocity": 50, "stabilization":{"iterations":250}}}')
     net.save_graph(str(out_path))
     print(f"  Saved → {out_path}")
 

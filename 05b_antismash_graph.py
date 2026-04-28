@@ -264,7 +264,7 @@ def build_graph(all_genes: list[dict]) -> nx.Graph:
                    node_type="genome",
                    label=genome_id,
                    display_label=genome_id,
-                   title=f"<b>Genome:</b> {genome_id}")
+                   title=f"Genome: {genome_id}")
 
     # ── Gene nodes ─────────────────────────────────────────────────────────
     for _, row in df.iterrows():
@@ -279,11 +279,11 @@ def build_graph(all_genes: list[dict]) -> nx.Graph:
                    start=row["start"],
                    end=row["end"],
                    label=row["product"][:25] if row["product"] else row["protein_id"][:20],
-                   title=(f"<b>{row['protein_id']}</b><br>"
-                          f"Role: {row['role']}<br>"
-                          f"BGC: {row['bgc_id']} ({row['bgc_type']})<br>"
-                          f"Genome: {row['genome_id']}<br>"
-                          f"Position: {row['start']}–{row['end']}<br>"
+                   title=(f"{row['protein_id']}\n"
+                          f"Role: {row['role']}\n"
+                          f"BGC: {row['bgc_id']} ({row['bgc_type']})\n"
+                          f"Genome: {row['genome_id']}\n"
+                          f"Position: {row['start']}–{row['end']}\n"
                           f"Product: {row['product']}"))
 
     # ── Adjacency edges (genomic order within BGC) ─────────────────────────
@@ -330,7 +330,7 @@ def build_graph(all_genes: list[dict]) -> nx.Graph:
                     G.add_edge(u, v,
                                edge_type="shares_function",
                                shared_function=kw,
-                               title=f"Shared across genomes: <b>{kw}</b>",
+                               title=f"Shared across genomes: {kw}",
                                weight=1)
                     share_count += 1
     print(f"  Cross-genome functional edges: {share_count}")
@@ -371,7 +371,7 @@ def export_pyvis(G: nx.Graph, out_path: Path):
 
     net.set_options('{"nodes":{"borderWidth":0.5},'
                     '"edges":{"smooth":{"type":"continuous"}},'
-                    '"physics":{"stabilization":{"iterations":300}}}')
+                    '"physics":{"maxVelocity": 50, "stabilization":{"iterations":300}}}')
     net.save_graph(str(out_path))
     print(f"  Saved interactive → {out_path}")
 
