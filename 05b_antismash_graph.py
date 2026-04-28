@@ -404,19 +404,21 @@ def export_static(G: nx.Graph, out_path: Path):
                                node_color=color, node_size=sizes,
                                alpha=0.85, linewidths=0.3, edgecolors="white")
 
-    if genome_nodes:
-        nx.draw_networkx_nodes(G, pos, nodelist=genome_nodes, ax=ax,
-                               node_color=GENOME_COLOR, node_size=800,
-                               node_shape="s", alpha=0.95)
-        nx.draw_networkx_labels(G, pos,
-                                labels={n: G.nodes[n]["label"] for n in genome_nodes},
-                                ax=ax, font_size=8, font_color="white", font_weight="bold")
+    # UNCOMMENT TO ADD the 3 GENOME SQUARE NODES WITH LABELS
+    # if genome_nodes:
+    #     nx.draw_networkx_nodes(G, pos, nodelist=genome_nodes, ax=ax,
+    #                            node_color=GENOME_COLOR, node_size=800,
+    #                            node_shape="s", alpha=0.95)
+    #     nx.draw_networkx_labels(G, pos,
+    #                             labels={n: G.nodes[n]["label"] for n in genome_nodes},
+    #                             ax=ax, font_size=8, font_color="white", font_weight="bold")
 
     threshold = np.percentile([degrees[n] for n in gene_nodes], 85) if gene_nodes else 0
-    gene_labels = {n: G.nodes[n].get("product", "")[:20]
-                   for n in gene_nodes if degrees[n] >= threshold}
-    nx.draw_networkx_labels(G, pos, labels=gene_labels, ax=ax,
-                            font_size=6, font_color="#1A1A18")
+    # UNCOMMENT TO ADD LABELS TO STATIC GRAPH
+    # gene_labels = {n: G.nodes[n].get("product", "")[:20]
+    #                for n in gene_nodes if degrees[n] >= threshold}
+    # nx.draw_networkx_labels(G, pos, labels=gene_labels, ax=ax,
+    #                         font_size=6, font_color="#1A1A18")
 
     patches = [mpatches.Patch(color=c, label=f"{r} gene") for r, c in ROLE_COLORS.items()]
     patches += [mpatches.Patch(color=GENOME_COLOR, label="genome"),

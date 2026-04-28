@@ -192,9 +192,10 @@ def export_static(G, out_path):
                                node_color=color, node_size=sizes, alpha=0.85,
                                linewidths=0.4, edgecolors="white")
     threshold = np.percentile(list(degrees.values()), 80)
-    labels = {n: G.nodes[n].get("annotation","")[:22]
-              for n in G.nodes() if degrees[n] >= threshold}
-    nx.draw_networkx_labels(G, pos, labels=labels, ax=ax, font_size=6, font_color="#1A1A18")
+    # UNCOMMENT TO ADD LABELS TO STATIC GRAPH
+    # labels = {n: G.nodes[n].get("annotation","")[:22]
+    #           for n in G.nodes() if degrees[n] >= threshold}
+    # nx.draw_networkx_labels(G, pos, labels=labels, ax=ax, font_size=6, font_color="#1A1A18")
     patches = [mpatches.Patch(color=c, label=f"{r} protein") for r,c in ROLE_COLORS.items()]
     patches += [plt.Line2D([0],[0], color="#2C2C2A", lw=1.2, label="genomic adjacency"),
                 plt.Line2D([0],[0], color="#7F77DD", lw=1.0, linestyle="dashed", label="shared function (cross-BGC)")]
