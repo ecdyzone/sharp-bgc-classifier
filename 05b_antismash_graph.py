@@ -20,9 +20,16 @@ Role assignment (in priority order):
   4. Heuristic keyword match on qualifiers.product
 
 Usage:
+    Option A: explicit files
     python 05b_antismash_graph.py \\
         --jsons AL645882.json CP009124.json CP029197_1.json \\
         --output figures/ --results results/
+
+    Option B: whole folder
+    python 05b_antismash_graph.py \\
+        --json-dir data/raw/antismash \\
+        --output figures/ --results results/
+
 """
 
 import argparse
@@ -464,8 +471,13 @@ def compute_stats(G: nx.Graph) -> dict:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--jsons",   nargs="+", required=True,
-                        help="antiSMASH JSON files (1 per genome)")
+
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--jsons", nargs="+",
+                       help="antiSMASH JSON files (1 per genome)")
+    group.add_argument("--json-dir",
+                       help="Directory containing antiSMASH JSON files")
+
     parser.add_argument("--output",  default="figures/")
     parser.add_argument("--results", default="results/")
     args = parser.parse_args()
@@ -473,9 +485,15 @@ def main():
     out_dir     = Path(args.output);  out_dir.mkdir(parents=True, exist_ok=True)
     results_dir = Path(args.results); results_dir.mkdir(parents=True, exist_ok=True)
 
+    # Resolve input files
+    if args.json_dir:
+        json_paths = list(Path(args.json_dir).glob("*.json"))
+        # json_paths = sorted(Path(args.json_dir).glob("*.json")) # consider sorting for reproducibility:
+    else:
+        json_paths = [Path(p) for p in args.jsons]
+
     all_genes = []
-    for json_path in args.jsons:
-        p = Path(json_path)
+    for p in json_paths:
         print(f"\n=== Parsing {p.name} ===")
         genes = parse_antismash_json(p)
         print(f"  → {len(genes)} BGC genes extracted")

@@ -21,14 +21,14 @@
   },
   "most_shared_cross_genome_functions": {
     "NaN": 3,
-    "hydrolase": 3,
-    "reductase": 3,
     "regulator": 3,
     "synthase": 3,
-    "dehydrogenase": 3,
+    "kinase": 3,
+    "transporter": 3,
+    "reductase": 3,
     "methyltransferase": 3,
-    "cyclase": 3,
-    "hydroxylase": 3,
-    "repressor": 3
+    "hydrolase": 3,
+    "thioesterase": 3,
+    "synthetase": 3
   }
 }
