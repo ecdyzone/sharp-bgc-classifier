@@ -158,12 +158,12 @@ python 05_knowledge_graph.py \
 
 > 🔗 **[Open interactive graph](https://ecdyzone.github.io/sharp-bgc-classifier/figures/antismash_graph.html)**
 
-Built from antiSMASH *de novo* BGC predictions across three *Streptomyces* genomes:
+Built from antiSMASH BGC predictions across three *Streptomyces* genomes:
 
 | Genome | Organism | Accession |
 |---|---|---|
 | AL645882 | *Streptomyces coelicolor* A3(2) | [AL645882](https://www.ncbi.nlm.nih.gov/nuccore/AL645882) |
-| CP009124 | *Streptomyces avermitilis* MA-4680 | [CP009124](https://www.ncbi.nlm.nih.gov/nuccore/CP009124) |
+| CP009124 | *Streptomyces lividans* TK24 | [CP009124](https://www.ncbi.nlm.nih.gov/nuccore/CP009124) |
 | CP029197 | *Streptomyces venezuelae* ATCC 10712 | [CP029197](https://www.ncbi.nlm.nih.gov/nuccore/CP029197) |
 
 **Node types:**
@@ -186,7 +186,7 @@ Built from antiSMASH *de novo* BGC predictions across three *Streptomyces* genom
 
 ```bash
 python 05b_antismash_graph.py \
-    --jsons AL645882.json CP009124.json CP029197_1.json \
+    --json-dir data/raw/antismash \
     --output figures/ --results results/
 ```
 
