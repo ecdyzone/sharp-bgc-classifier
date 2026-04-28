@@ -1,3 +1,8 @@
+# unstracked project files
+TODO.md
+results_nf*/
+
+
 # Raw Data Downloaded by the scripts
 data/raw/
 
